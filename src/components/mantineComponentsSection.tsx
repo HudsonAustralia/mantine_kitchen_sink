@@ -5,7 +5,7 @@ import { Adjustments } from "tabler-icons-react";
 const MantineComponents = () => {
   return (
     <Flex>
-      <Button variant="light">Settings</Button>
+      <Button>Settings</Button>
       <ActionIcon>
         <Adjustments size="1.125rem" />
       </ActionIcon>

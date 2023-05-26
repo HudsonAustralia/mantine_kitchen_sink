@@ -1,6 +1,6 @@
 import React from "react";
-import CustomComponents from "../components/customComponents";
-import MantineComponents from "../components/mantineComponents";
+import CustomComponents from "../components/customComponentsSection";
+import MantineComponents from "../components/mantineComponentsSection";
 import { Divider } from "@mantine/core";
 
 const App = () => {
