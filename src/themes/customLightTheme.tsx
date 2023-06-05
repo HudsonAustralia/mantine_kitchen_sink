@@ -3,21 +3,26 @@ import { MantineThemeOverride } from "@mantine/core";
 const theme: MantineThemeOverride = {
   colors: {
     // override dark colors to change them for all component
-    // brand: [
-    //   "#F0BBDD",
-    //   "#ED9BCF",
-    //   "#EC7CC3",
-    //   "#ED5DB8",
-    //   "#F13EAF",
-    //   "#F71FA7",
-    //   "#FF00A1",
-    //   "#E00890",
-    //   "#C50E82",
-    //   "#AD1374",
-    // ],
+    blue: [
+      "#eff6ff",
+      "#dbeafe",
+      "#bfdbfe",
+      "#93c5fd",
+      "#60a5fa",
+      "#3b82f6",
+      "#2563eb",
+      "#1d4ed8",
+      "#1e40af",
+      "#1e3a8a",
+    ],
   },
   fontSizes: {},
-  // primaryColor: "brand",
+  primaryColor: "blue",
+  globalStyles: (theme) => ({
+    "*, *::before, *::after": {
+      boxSizing: "border-box",
+    },
+  }),
 };
 
 export default theme;
